@@ -4,10 +4,12 @@ namespace skyss0fly\AutoStop;
 use pocketmine\plugin\PluginBase;
 use DateTime;
 
-Class Main extends PluginBase {
+class Main extends PluginBase {
 
 public function onLoad(): void {
 $this->saveDefaultConfig();
+$cfg = $this->getConfig();
+
 
 
 }
